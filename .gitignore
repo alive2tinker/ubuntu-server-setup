@@ -1,0 +1,17 @@
+# Private bootstrap configuration; the example is safe to commit.
+.env
+.env.*
+!.env.example
+
+# Editor backups of the private configuration.
+.env~
+.env-*
+
+# Credential copies, if manually placed in the checkout.
+cert.pem
+cloudflare-cert.pem
+cloudflare-token
+tunnel.json
+
+# macOS file metadata.
+.DS_Store
